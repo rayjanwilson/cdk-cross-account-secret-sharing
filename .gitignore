@@ -1,0 +1,29 @@
+*.js
+!jest.config.js
+!.eslintrc.js
+!lib/cloudfront/lambda/index.js
+*.d.ts
+cdk.context.json
+
+# Dependency directories
+node_modules/
+
+# TypeScript cache
+*.tsbuildinfo
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+# dotenv environment variables file
+.env.test
+.env.local
+
+# CDK asset staging directory
+.cdk.staging
+cdk.out
+
+# OS X
+.DS_Store
